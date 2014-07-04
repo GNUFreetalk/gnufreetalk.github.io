@@ -69,8 +69,7 @@ a:active {
   color: #900 }
 a:hover {
   background: #999;
-  color: #FFF;
-  outline: solid red }
+  color: #FFF;}
 a:hover * { /* Work-around for Konqueror 3.1 */
   background: inherit }
 div.back {
