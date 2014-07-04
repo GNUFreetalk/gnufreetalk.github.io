@@ -1,61 +1,26 @@
-<!-- Parent-Version: 1.54 -->
+<title>GNU Freetalk - GNU Project - Free Software Foundation</title>
 
-<!-- This is the template document for GNU web pages.  We use
-     server side includes (#include) for common elements, for
-     instance, the very first line of the file.  If you're reading
-     this in its expanded form, you can retrieve the original source,
-     with the SSI statements intact, from
-     http://web.cvs.savannah.gnu.org/viewvc/*checkout*/www/server/standards/boilerplate.html?root=www&content-type=text%2Fplain
--->
-
-<!-- Instructions for adapting this boilerplate to a new project: -->
-
-<!-- 1. In the line above starting "Parent-Version:", remove the
-        "$Revision...$" from around the revision number,
-        leaving just Parent-Version: and the number. -->
-
-<!-- 2. Replace "baz" with the name of your project.
-        You should be able to do this with search and replace;
-        making sure that the search is case insensitive and
-        that the case of the replacement matches the case
-        of the string found. In Emacs, query-replace will do this
-        when case-fold-search and case-replace are both non-nil
-        and both search and replacement string are given in lower case. -->
-
-<!-- 3. Of course update the actual information according to your project,
-        such as mailing lists, project locations, and maintainer name.  -->
-
-<!-- 4. You can use the patch-from-parent script to semi-automate
-        merging future changes to the boilerplate with your file:
-        http://web.cvs.savannah.gnu.org/viewvc/*checkout*/www/server/standards/patch-from-parent?root=www&content-type=text%2Fplain
--->
-
-<!--#include virtual="/server/header.html" -->
-<title>A functional() messenger for Facebook, GoogleTalk and other XMPP services
-- GNU Project - Free Software Foundation</title>
-<!--#include virtual="/server/banner.html" -->
 <h2>GNU Freetalk</h2>
 
 <h4>
-About Freetalk
+&nbsp;About Freetalk
 </h4>
 
-<p>GNU Freetalk is a console based chat client for Facebook, Google Hangout
-and other XMPP servers. It has context sensitive auto-completion for
-buddy names, commands, and even ordinary English words. Similar to GNU Emacs,
+<p>Freetalk is a console based chat client for Facebook, Google Hangout <br />
+and other XMPP servers. It has context sensitive auto-completion for <br />
+buddy names, commands, and even ordinary English words. Similar to GNU Emacs, <br />
 You can customize and extend Freetalk with Scheme language.</p>
 
 <h4>
-  Downloading Freetalk
+&nbsp;Downloading Freetalk
 </h4>
 
 <p>
-  Latest <b>4.0rc4</b>
-  release: <a href="https://github.com/GNUFreetalk/freetalk/releases/tag/v4.0rc4">v4.0rc4</a>
+  Latest release: <a href="https://github.com/GNUFreetalk/freetalk/releases/tag/v4.0rc4">v4.0rc4</a>
 </p>
 
 <h4>
-Freetalk Documentation
+&nbsp;Freetalk Documentation
 </h4>
 
 <p>
@@ -63,42 +28,42 @@ Freetalk Documentation
 </p>
 
 <h4>
-News
-</h4>
-
-<h4>
-Github access
+&nbsp;Github access
 </h4>
 
 To check out the latest sources from the
 <a href="https://github.com/GNUFreetalk/freetalk">Freetalk</a>
 repository, do:
 
+<pre>
 <code>
-$ git clone https://github.com/GNUFreetalk/freetalk.git freetalk.git
-$ cd freetalk.git;./autogen.sh;./configure --prefix=/usr
-$ sudo make install
+    $ git clone https://github.com/GNUFreetalk/freetalk.git freetalk.git
+    $ cd freetalk.git;
+    $ ./autogen.sh;
+    $ ./configure --prefix=/usr
+    $ sudo make install
 </code>
+</pre>
 
-<p>To start with you can use Freetalk by just running 'freetalk' and
-then doing <code>/login</code> to specify your Jabber account and password. To
-avoid having to do this every time, you can put your account details
-in a file called <code>~/.freetalk/freetalk.scm</code>. Look at <code>examples/freetalk.scm</code>
-to know how to do this.</p>
+<p>To start with you can use Freetalk by just running 'freetalk' and then doing <br />
+<code>/login</code> to specify your Jabber account and password. To avoid <br />
+having to do this every time, you can put your account details in freetalk <br />
+startup file called <code>~/.freetalk/freetalk.scm</code>. Look at other <br />
+<code>examples/freetalk.scm</code> to know how to use them</p>
 
-<p>There is comprehensive documentation in Info format in the doc/ directory,
-which you should be able to read by saying,</p>
-
-<pre><code>   $ info freetalk
-</code></pre>
+<p>There is comprehensive documentation in info format in the doc/ directory, <br>
+which you should be able to read by typing:</p>
+<pre>
+<code>
+   $ info freetalk
+</code>
+</pre>
 
 <h4>
-Contributors
+&nbsp;Contributors
 </h4>
 
 <p>
-  Freetalk team:
-
 <ul>
 <li><b>Anand Babu Periasamy</b>       &lt;ab (at) redhat.com&gt;</li>
 <li><b>Harshavardhana</b>             &lt;fharshav (at) redhat.com&gt;</li>
@@ -107,31 +72,17 @@ Contributors
 
 </p>
 
-<p>If you face any problems installing, using Freetalk, or if you have
-any feedback/developer questions, feel free to open
-<a href="https://github.com/GNUFreetalk/freetalk/issues">Freetalk issues</a></p>
+<p>If you face any problems installing, using Freetalk, or if you have any <br />
+feedback/developer questions, feel free to open <a href="https://github.com/GNUFreetalk/freetalk/issues">Freetalk issues</a></p>
 
 <h3 id="license">Licensing</h3>
 
 <p>Freetalk
-is free software; you can redistribute it and/or modify it under the
-terms of the <a href="http://www.gnu.org/licenses/gpl.html"
-rel="license">GNU General Public License</a> as published by the Free
-Software Foundation; either version&nbsp;3 of the License, or (at your
-option) any later version.</p>
+is free software; you can redistribute it and/or modify it under the terms of <br />
+the <a href="http://www.gnu.org/licenses/gpl.html" rel="license">GNU General Public License</a> as published by the Free Software Foundation; either version&nbsp;3 of the <br />
+License, or (at your option) any later version.</p>
 
-<!-- If needed, change the copyright block at the bottom. In general,
-     all pages on the GNU web server should have the section about
-     verbatim copying.  Please do NOT remove this without talking
-     with the webmasters first.
-     Please make sure the copyright date is consistent with the document
-     and that it is like this: "2001, 2002", not this: "2001-2002". -->
-</div><!-- for id="content", starts in the include above -->
-<!--#include virtual="/server/footer.html" -->
-<div id="footer">
-
-<p>Please send general FSF &amp; GNU inquiries to
-<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+<p>Please send general FSF &amp; GNU inquiries to <a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
 There are also <a href="/contact/">other ways to contact</a>
 the FSF.<br />
 
